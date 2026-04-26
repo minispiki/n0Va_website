@@ -1,0 +1,55 @@
+.container {
+    background: rgba(165, 94, 167, 0.5);
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.info img {
+    float: inline-start;
+    padding: 5px;
+}
+
+.info h1 {
+    font-family: monospace;
+    position: relative;
+    color: orchid;
+}
+
+header {
+    border-radius: 5px;
+    background: rgba(176, 11, 105, 1);
+}
+
+main {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    background: rgba(165, 94, 167, 0.5);
+}
+
+section {
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(165, 94, 167, 1);
+    font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+    background: rgba(29, 28, 201, 1);
+    border-radius: 5px;
+    margin-top: 5%;
+    font-family: monospace;
+}
+
+footer * {
+    padding: 2.5px;
+}
+
+a {
+    color: lightpink;
+    font-weight: 750;
+}
